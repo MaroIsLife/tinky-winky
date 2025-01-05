@@ -5,6 +5,10 @@ const LPCWSTR SERVICE_NAME = L"tinky";
 const LPCWSTR DISPLAY_NAME = L"Tinky Service";
 const LPCWSTR SERVICE_PATH = L"\"C:\\Users\\Maro\\Desktop\\tinkey\\a.exe\"";
 
+const std::string SERVICE_NAME = "tinky";
+const std::string DISPLAY_NAME = "Tinky Service";
+const std::string SERVICE_PATH = "\"C:\\Users\\Maro\\Desktop\\tinkey\\a.exe\"";
+
 SC_HANDLE Tinky::ConnectSCManager() {
     SC_HANDLE scHandle = OpenSCManager(NULL, NULL, SC_MANAGER_ALL_ACCESS);
     

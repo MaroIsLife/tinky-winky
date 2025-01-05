@@ -3,6 +3,8 @@
 
 #include <windows.h>
 #include <string>
+#include <iostream>
+#include <string>
 
 class Tinky {
 public:
