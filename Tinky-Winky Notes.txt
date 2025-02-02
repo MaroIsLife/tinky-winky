@@ -1,0 +1,22 @@
+How to check Windows Error logs using Windows Event Viewer:
+
+1. Open Event Viewer
+2. Go to Windows Logs -> System then Open
+3. Look for errors related to your service
+
+
+
+Normal Token vs System Token:
+
+Normal token can't:
+- Access protected system resources
+- Hook system-wide keyboard
+- Survive user logout
+- Access other user sessions
+
+SYSTEM token (from winlogon) can:
+- Access everything in the system
+- Hook all keyboard events
+- Run independently of user sessions
+- Access protected resources
+- Survive user logouts
