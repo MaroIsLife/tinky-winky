@@ -13,6 +13,7 @@ public:
     static bool StopService();
     static bool DeleteService();
 
+
 private:
     static SC_HANDLE ConnectSCManager();
 };
