@@ -1,4 +1,4 @@
-How to check Windows Error logs using Windows Event Viewer:
+How to check Windows Service Error logs using Windows Event Viewer:
 
 1. Open Event Viewer
 2. Go to Windows Logs -> System then Open
